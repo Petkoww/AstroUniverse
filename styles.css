@@ -1,0 +1,70 @@
+/* Set the background image */
+body {
+    background-image: url("https://wallpapers.com/images/high/4k-universe-andromeda-galaxy-dr00ji9se48mtjf1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    text-align: center;
+    background-color: #333;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  /* Style the sections */
+  section {
+    margin: 50px auto;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin-top: 0;
+    color: white; /* Make the h2 text white */
+  }
+  
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: white; /* Make the p text white */
+  }
+  
+  /* Change the site name to Ivaylo's Astronomy Site */
+  header h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Center the site name */
+  header {
+    text-align: center;
+  }
+  

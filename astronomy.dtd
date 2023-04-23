@@ -1,4 +1,0 @@
-<!ELEMENT astronomy (section*)>
-<!ELEMENT section (h2, p)>
-<!ELEMENT h2 (#PCDATA)>
-<!ELEMENT p (#PCDATA)>

@@ -1,0 +1,75 @@
+/* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  /* Header Styles */
+  
+  .header {
+    background-color: #262626;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  /* Main Styles */
+  
+  .main {
+    position: relative;
+  }
+  
+  .background-image {
+    background-image: url(https://www.worldatlas.com/r/w1300-q80/upload/f1/22/dc/shutterstock-645382660.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    filter: brightness(50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    color: #fff;
+    text-align: justify;
+  }
+  
+  .content h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer Styles */
+  
+  .footer {
+    background-color: #262626;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  

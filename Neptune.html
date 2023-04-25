@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Neptune | AstroUniverse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Planets.css">
+  </head>
+  <body>
+    <header>
+        <img src="AstroUniverse.png" alt="Your Logo">
+        <nav>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <div class="dropdown">
+              <a href="#">Gallery</a>
+              <div class="dropdown-content">
+                <div class="sub-dropdown">
+                  <a href="#">Planets</a>
+                  <div class="sub-dropdown-content">
+                    <a href="mercury.html">Mercury</a>
+                    <a href="venus.html">Venus</a>
+                    <a href="earth.html">Earth</a>
+                    <a href="mars.html">Mars</a>
+                    <a href="jupiter.html">Jupiter</a>
+                    <a href="saturn.html">Saturn</a>
+                    <a href="uranus.html">Uranus</a>
+                    <a href="neptune.html">Neptune</a>
+                  </div>
+                </div>              
+                <a href="#">Galaxies</a>
+                <a href="#">Stars</a>
+                <a href="#">Nebulas</a>
+              </div>
+            </div>
+            
+            </li>
+          </ul>
+        </nav>
+        
+      </header>
+    
+    <section class="mercury-section">
+      <div class="mercury-header">
+        <h2>Neptune</h2>
+        <p>Neptune is the eighth planet from the Sun and the fourth largest in our Solar System. It is known for its deep blue color and for being the only planet in the Solar System that is not visible to the naked eye.</p>
+      </div>
+      <div class="mercury-content">
+        <div class="mercury-video-container">
+          <video autoplay loop muted>
+            <source src="Neptune rotating.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="mercury-info">
+            <h3>Basic Information</h3>
+            <ul>
+              <li><span>Distance from the Sun:</span> 4.5 billion km</li>
+              <li><span>Length of Day:</span> 16.1 Earth hours</li>
+              <li><span>Length of Year:</span> 164.8 Earth years</li>
+              <li><span>Number of Moons:</span> 14</li>
+            </ul>
+          </div>
+        <div class="mercury-gallery">
+          <h3>Gallery</h3>
+          <div class="mercury-gallery-grid">
+            <img class="fade-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Neptune_Full.jpg/800px-Neptune_Full.jpg" alt="Venus 1">
+            <img class="fade-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Neptune_Full_Disk_View_-_GPN-2000-000443.jpg/800px-Neptune_Full_Disk_View_-_GPN-2000-000443.jpg" alt="Venus 2">
+            <img class="fade-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Neptune%2C_Earth_size_comparison_2b.jpg/800px-Neptune%2C_Earth_size_comparison_2b.jpg" alt="Venus 3">
+            <img class="fade-in" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQDxUPEhAPFQ8VDw8QEA8VDw8VFQ8PFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OFQ8QFy0dHR0tLS0tKy0tLS0tLS0tLS0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAMcA/QMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAQIDBAUGB//EADYQAQACAQEFBgQEBAcAAAAAAAABAgMRBAUSIUEGEzFRcYEiYZHRMqGxwUJSYvEUFRYjguHw/8QAGgEBAQEBAQEBAAAAAAAAAAAAAAECAwQFBv/EACkRAQEAAgICAQQBAwUAAAAAAAABAhEDEgQhMRMiQVEFMmGxFBWBkaH/2gAMAwEAAhEDEQA/APiFpaZiooAigAAAAAAAACoAagAnVQ1A1AQFDUAAEiAoIAnUDUDUFZRUIAoAAAAACAAASAAAqAAAAAAAJAAUEBQBIAIQJBCKAAgAEggAABAUASAAAAAqAAAAAAAAAJAAABEgIoCAEAAAAAAAGTFhtblETLUxtZyzxx+a3sW6LT4z7Q6zhrzZeXjPht4txxPjq3OB58vOv4Z43LTyn81+hHO+bmn/ACTH5T9ZLwRP9dmx37PR0taPzZvBfw3P5C/mNLaNyZq84jijzhyvHlHpw83jy+fTnXpNZ0mJifKWXqllm4qKAAAAAAAAAAkEAIoCAEAAAAAFqVmZ0hZLUtk+XT2PdmvO3P5PRhxPHy+Tr1Hb2XZIjo9WHG+byctrdpgh1mDz3OtmmFvo5XNb/DnRn6ie4Xon1FowHRLmRTT6+HmzeOVZm1N4btx35TWNOfj4x6eThn48rvw+Tnh7leX3luS2PW1Pir5dY+7xZ8VxfZ4PNxz9Zeq5Dm9wAAAAAAAAAAAigIAQAAAAZMOKbTpDeOFrOWUxm67Wx7HFXqxwkfO5ea5Olhpo74x488ttvHLti4ZNmlnWONjPWWnOssS1pixeJNMkyaFLJpqMWSWLG8Y18kOOWG3WVxN7bmi8cdNIv1jpb/t4eXh17j6XjeZcPty+P8PM3rMTMTGkxOkx5S8z68ss3ECgAAAAAAACAKAhAAAABfHSbTpDWOO6mWUk3Xb2TZorD2Y4afN5eXtW/WNIddPLfbJTLr4x7tSs3FlizcrGmSmV0mTFxZqZmpk53BmrtDcyc7xrxtC9k+mTtB2PpqTmZtWYKWyM2tzFSbsWrMRmwcbf27OOve0j44j4oj+Kv3eHn4tfdH0PC8rremXw8y8z7AgCgCoAAAAIoCEAAAAAHW3Zs3WY5/s9vFhqPD5HJ+I7OPFyd5i+flktELpNq93PSeXkuqvafmJx6xy0JuJlq+2TRtlPM2ek8crtNRPeSvZOsTGSTsnVPHPkbTUWjUPS0DNTEiaZa11hm47jFvt5Dfuxd1k1iPhtrMfKesPmcuHXJ97w+f6mGr8xzHJ7QAAAAAQAFAQgAAAAzbNj4rRDrxY7rHJlrF6LZMekPfjHyOXLdb9ausjzWrTRdJtjtjmEs01MlZmYNtalTFzadU8SppPEGkxYTRxrs0mLG00niNmkwIz48fVqRzyyZohdOe3N33sveY5jr4x6w8fkYbj2eHy9M5Xi3zn6EAAAEBQAQFEEAAAAA6W7MXX5vZxY+nk8jL8O7gh68Y+ZnW3SHSOFZIhvTCeFdG1LU+TPVqZK9zCdF7ojD5xrCdC5q3xeUHWtTP8AaO7lNVe0TGGV61LnF4wSvWs94yVwrMGLmzUxNzFi5MsVXTntMpRrbRHJw5J6dsPl4neeHgy2jprrHv8A+l8nOaysfovHz7ccrVZdwAAAAAAAEIAAAJhcZ7Hb3dXlo+jxz0+bz3262GHePDm2aw6RyrLDTmmFRbRU2cELo2d2mjsnu10djuzSdk92dTsmMcHVO1XrVdM2raCEgrZirGDLDlm64vKdocel4t8ph8znn3Pt+Dl9tjkuD3gAAAAAACCAAAAXxRzj1dOOe2cvh6DY68n0MI+Xy326mCP7O8jxZs1Ybkc7WSIa0xtaIXSbTEKm0wCyonUTSYVEgQCZENJQ3F8eG1vw1tPpEzzS0UyY5idJiYnrE+OqLK18rnk6YvOdo6/DE/1ftL5vkR9fwL91cB5X1AAAAAAAAEIAAAMuzx8UOvF8scn9L0WyRyfRwfJ5XRxQ7x5Mq2q82441aKtaTa/DKs7iYgRMVXSbTwhtPCJs4Q2nhDZwibZYwTw8Wsaesa/TxGe34MG2Ysd4tanHpOvDaZ0n10Yysbxwztl/DsZu3efgjHSuPHjifwY8daxp+rh9LDe69X1OWzrNSfqR5jbd4ZMuScl51mZO2vgmE/7TjvE1nWOfSOkL8xzs1fTz/aOfg/5Q8HkvqeB/U868j6wAAAAAAACEAAAGbZfxR6u3D8ufJ/TXodmh9DB8rkdLFLvi8mTZo6RxrLWGmKyVaYrJWkeensM3K/pauDXw0n3+4zeT9rW2e0dJEnJKpMT1GtxaLR1rX11t9xNX9qzEdI09xfZoG2PPmtEaRPLyhjKt4Yy/LmZLS4WvZjIx1iUaumStNU0zctM/DpDd9Ry3uvO9o7coj+r9Il87yK+t4E92uE8r6YAAAAAAACEAAAGXZ50tHq68V9sZz1XotkfQwfJ5HRxu+LyZNikukcqy1s3GLGWLKxYvEqytEjNXiwzpOoaATCi8XrH8EfWUZ1f2tfNjmvD3NNettba+3PSE6rO0ny0smCs+EaM9I7Y55flhnBCdG+9NIhNSG7WHLLlnXTF5TtBk1yRXyr+v9ny+e7yfc8HHWFv7ctxe0AAAAAAABCAAACazzawuqlej2C+sQ+lhXyefHVrqYpd48WTPV0jnWSG4zV4lWNL1srNi8WVLFosM6Wiwmk6iaNVNE2Q0rNhrSkyjUikylVSWK1GrtNtIefkuo7cc3Xidrzcd7W855enR8nK7u36Piw6YTFiR0AAAAAAAAQgAAAA6+6M3R7+HLceDysPy7uKz1yvm5RsVs6SuVjLWzUYsXiW2KvCsrCLwqJETqIaioBCKrKKrMpVVyZekOeVaxw/bgdoNr4acMT8VuXt1eDyc/Wn0/C4u2W/xHmXhfZAAAAAAAAAAQgAAAz7Jl4bauvDl1rny4dsXptmvrGvR9HGvj8k1W1WzrK4WMsS3KxYvFmpWbGSLNbYsXrZraWLxc2z1TF1TSeITRxBpHGm10ibptdKTZLVkY7WYtbka+0ZYrE2mdIiNZlw5M5Jt1wwtskeO27aZy3m/TwrHlV8rPLtdv0HDxTjwmLXZdQAAAAAAAAAAEIAJUQg6259t0ngtPo9nDy79V4fK4dztHoa83slfKq0Q3Ki2re00tFllZsXizW2bFouu00txLtNJ4jaaRxmzRxptdKzZNrpWbM2rpEw55ZaV5bfe8u8ngpP+3E85/nn7Pmc3L3up8PteH43052y+b/45Tg9wAAAAAAAAICgAIQFEggExJPQ7e6t7afBefSz2cPPv1XzfJ8Tf3YPQU0mNYmHslfLu58sndukY7InGq9kcKrs4Q2mIlU2nSRDhDaeBE2tGMS5GTSlZtaYiseMzy0cs85jN2rjvO6xm68tvnfU5dcePWMfWfCb/AGh83m57n6nw+14nhfT+/P3f8OM4PoAAAAAAAAAAgKAAAAAAAA3dh3nkxdda+U/s7cfNlj/d5ubxcOT+1ek2DfOLJymdLeUvdx8+OT5HN4XJh7+Y6lZifCXomTx3cTFGk7HdqnZPdh2T3YnZMUE7FtI5zOnzmWblIs3fUcjb+0OHHrFPjt8vw6/Ofs8fJ5WM9Y+3v4P4/kz95fbHmNv3hkzzre3LpWOVa+kPDnnlnd19nh8fDhmsZ/y1GHcAAAAAAAAAAVBAFAAAAAAAAAbOz7flp+G8+k83THlyx+K458HHn8x0cPaPLHjET76O2PlZT5eTP+O478XTcp2ojrS3to6Ty/7PPf4u/isn+qafyX+kfdr/AFk/TP8AteX7jHftV5Y595iGb5n6jU/iv3k1M/aXNblWK1/OXLLys78PRh/G8U+fbl7RtmTJ+O9rfKZ5fTwccsssvmvZx8OHH/TjpgZdBFAAFQAAQFBAAUATIIAAARQAAAAAABUAAAAAAAAAAAAAAAAAASCZVECoQAAAABQAAAQAABIGiggAgAEggAAEggE6AAKGiAC0qiABUAhABIIAAAABOihoCQQCRAAAVGgJEBQAQFABAAAE6A//2Q==" alt="Venus 4">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <p>© AstroUniverse 2023</p>
+    </footer>
+  </body>
+</html>

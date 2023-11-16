@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  height: 80px; /* adjust the height to your desired size */
+  height: 80px;
   background-color: black;
   color: white;
   display: flex;
@@ -124,7 +124,6 @@ footer {
 footer p {
   font-size: 14px;
 }
-/* Dropdown menu */
 .dropdown {
   position: relative;
   display: inline-block;
@@ -160,7 +159,6 @@ footer p {
   animation-fill-mode: forwards;
 }
 
-/* Sub-dropdown menu */
 .dropdown-content .sub-dropdown {
   position: relative;
 }
@@ -174,7 +172,7 @@ footer p {
   position: absolute;
   z-index: 1;
   top: 0;
-  left: -100%; /* change left property to -100% */
+  left: -100%;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   background-color: black;
@@ -247,9 +245,8 @@ footer p {
   color: black;
 }
 header img {
-  width: auto; /* adjust the width to your desired size */
-  height: 200%; /* maintains the aspect ratio of the image */
-  padding: 0 20px; /* add some padding around the logo */
+  width: auto;
+  height: 180px;
   margin: 0;
 }
 .fade-in {
